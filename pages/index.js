@@ -12,7 +12,7 @@ import useStyles from '../utils/styles';
 import db from '../utils/db';
 import Product from '../models/Product';
 
-const Home = ({ products }) => {
+const Home = ({ products, topProducts }) => {
   const classes = useStyles();
   const router = useRouter();
   const { state, dispatch } = useContext(Store);
@@ -31,7 +31,7 @@ const Home = ({ products }) => {
   return (
     <Layout>
       <Carousel className={classes.carousel} animation='slide'>
-        {products.map((product) => (
+        {topProducts.map((product) => (
           <div key={product._id} style={{ display: 'flex' }}>
             <NextLink href={`/product/${product._id}`} passHref>
               <Link>
@@ -72,17 +72,12 @@ export async function getServerSideProps() {
   await db.connect();
   const products = await Product.find({}, '-reviews').lean();
 
-  // const topRatedProductsDocs = await Product.find({}, '-reviews')
-  //   .lean()
-  //   .sort({
-  //     rating: -1,
-  //   })
-  //   .limit(6);
+  const topProducts = await Product.find({}, '-reviews').lean().limit(6);
   await db.disconnect();
   return {
     props: {
       products: products.map(db.convertDocToObj),
-      // topRatedProducts: topRatedProductsDocs.map(db.convertDocToObj),
+      topProducts: topProducts.map(db.convertDocToObj),
     },
   };
 }
