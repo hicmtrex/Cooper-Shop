@@ -9,13 +9,13 @@ import { Store } from '../utils/Store';
 import ProductItem from '../components/ProductItem';
 import Carousel from 'react-material-ui-carousel';
 import useStyles from '../utils/styles';
-import { getAllProducts, getTopProducts } from '../utils/help-api';
+import db from '../utils/db';
+import Product from '../models/Product';
 
-const Home = (props) => {
+const Home = ({ products }) => {
   const classes = useStyles();
   const router = useRouter();
   const { state, dispatch } = useContext(Store);
-  const { products, topProducts } = props;
 
   const addToCartHandler = async (product) => {
     const existItem = state.cart.cartItems.find((x) => x._id === product._id);
@@ -31,7 +31,7 @@ const Home = (props) => {
   return (
     <Layout>
       <Carousel className={classes.carousel} animation='slide'>
-        {topProducts.map((product) => (
+        {products.map((product) => (
           <div key={product._id} style={{ display: 'flex' }}>
             <NextLink href={`/product/${product._id}`} passHref>
               <Link>
@@ -68,15 +68,22 @@ const Home = (props) => {
   );
 };
 
-export async function getStaticProps() {
-  const products = await getAllProducts();
-  const topProducts = await getTopProducts();
+export async function getServerSideProps() {
+  await db.connect();
+  const products = await Product.find({}, '-reviews').lean();
+
+  // const topRatedProductsDocs = await Product.find({}, '-reviews')
+  //   .lean()
+  //   .sort({
+  //     rating: -1,
+  //   })
+  //   .limit(6);
+  await db.disconnect();
   return {
     props: {
-      products,
-      topProducts,
+      products: products.map(db.convertDocToObj),
+      // topRatedProducts: topRatedProductsDocs.map(db.convertDocToObj),
     },
-    revalidate: 600,
   };
 }
 

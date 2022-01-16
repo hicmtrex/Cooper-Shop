@@ -19,7 +19,8 @@ import { Store } from '../../utils/Store';
 import { getError } from '../../utils/error';
 import { useRouter } from 'next/router';
 import { useSnackbar } from 'notistack';
-import { getProductById } from '../../utils/help-api';
+import db from '../../utils/db';
+import Product from '../../models/Product';
 
 const ProductScreen = (props) => {
   const router = useRouter();
@@ -260,25 +261,18 @@ const ProductScreen = (props) => {
   );
 };
 
-export const getStaticProps = async (context) => {
-  const product = await getProductById(context.params.id);
+export async function getServerSideProps(context) {
+  const { params } = context;
+  const { id } = params;
 
+  await db.connect();
+  const product = await Product.findById(id).lean();
+  await db.disconnect();
   return {
     props: {
-      product,
+      product: db.convertDocToObj(product),
     },
-    revalidate: 180,
   };
-};
-
-export const getStaticPaths = async () => {
-  const { data } = await axios.get('http://localhost:3000/api/products');
-  const paths = data.map((product) => ({ params: { id: product._id } }));
-
-  return {
-    paths,
-    fallback: 'blocking',
-  };
-};
+}
 
 export default ProductScreen;

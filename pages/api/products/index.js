@@ -8,7 +8,11 @@ handler.get(async (req, res) => {
   await db.connect();
   const products = await Product.find({});
   await db.disconnect();
-  res.send(products);
+  if (products) {
+    res.status(200).json(products);
+  } else {
+    res.status(404).json({ message: 'Products not found' });
+  }
 });
 
 export default handler;
