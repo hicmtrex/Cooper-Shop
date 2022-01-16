@@ -1,0 +1,194 @@
+[
+  {
+    "name": "HP 15s Ryzen 5",
+    "fullName": "HP 15s Ryzen 5 Quad Core - (8 GB/1 TB HDD/Windows 10 Home) 15s-GR0009AU",
+    "image": "/images/hp-i5.jpg",
+    "price": 979.99,
+    "rating": 4.5,
+    "brand": "Hp",
+    "description": "ASUS VivoBook S15 S533 Thin and Light Laptop, 15.6” FHD, Intel Core i5-10210U CPU, 8GB DDR4 RAM, 512GB PCIe SSD, Windows 10 Home, S533FA-DS51, Indie Black",
+    "category": "Laptop",
+    "specifications": ["8 GB/1 TB HDD", "15.6 inch Full HD"],
+    "__v": 0
+  },
+  {
+    "name": "HP OMEN 15 Gaming",
+    "fullName": "HP OMEN 15 Gaming Laptop PC: AMD Ryzen 9 5900HX, NVIDIA GeForce RTX 3070 Graphics Card",
+    "image": "/images/hp_omen_15.jpg",
+    "price": 1699.99,
+    "rating": 4.5,
+    "brand": "Hp",
+    "description": "Highly Rated 15.6\" Performance Gaming Laptop\n      AMD Ryzen 9 5900HX 8 Core - 16 Thread (3.3-4.6GHz Max Boost Clock) Processor\n      Overclockable NVIDIA GeForce RTX 3070 Graphics Card with 8GB of dedicated GDDR6 VRAM, NVIDIA DLSS, NVIDIA Dynamic Boost 2.0, NVIDIA GPU Boost\n      15.6\" 165Hz QHD (2560 x 1440) IPS-Type 300-Nit Display - Narrow Bezel Design\n      1TB Performance PCIe NVMe SSD + 16GB 3200MHz DDR4 Dual Channel RAM\n      Audio by Bang & Olufsen; Wi-Fi 6 + Bluetooth 5.1; USB Type-C Port\n      4-zone RGB backlit 26-Key Rollover Keyboard, 70.9WHr Battery; Gigabit LAN\n      Bonus: Limited Edition Eluktronics Large @$$ Mousepad Covid Edition!",
+    "category": "Laptop",
+    "specifications": [
+      "1TB NVMe SSD/15.6 QHD 165Hz",
+      "16GB DDR4 3200MHz RAM",
+      ""
+    ],
+    "__v": 0,
+    "thumbnail": "/images/hp-i5.jpg"
+  },
+  {
+    "name": "HP Pavillion 16.1 Gaming",
+    "fullName": "Gaming Laptop | Intel 10th Generation Core i5-10300H| NVIDIA GeForce GTX 1660 Ti",
+    "image": "/images/HP_Pavillion_6_img.jpg",
+    "price": 699.99,
+    "brand": "Dell",
+    "description": "10th Generation Intel Core i5-1035G1 Processor (6MB Cache, up to 3.6 GHz)\n      8GB, 8Gx1, DDR4, 2666MHz\n      256GB M.2 PCIe NVMe Solid State Drive + 1TB 7200 rpm 2.5\" SATA Hard Drive\n      Windows 10 Home Single Language + MS OFFICE\n      Intel UHD Graphics with shared graphics memory",
+    "category": "Laptop",
+    "specifications": ["512GB SSD", "12GB DDR4"],
+    "__v": 1,
+    "thumbnail": "/images/HP_Pavillion_6.png"
+  },
+  {
+    "name": "Dell Vostro 14 3491",
+    "fullName": "Dell Vostro Core i5 10th Gen - (8 GB/1 TB HDD/256 GB SSD/Windows 10 Home) Vostro 3491",
+    "image": "/images/Dell-Vostro-14.jpg",
+    "price": 699.99,
+    "rating": 4.2,
+    "brand": "Dell",
+    "description": "10th Generation Intel Core i5-1035G1 Processor (6MB Cache, up to 3.6 GHz)\n      8GB, 8Gx1, DDR4, 2666MHz\n      256GB M.2 PCIe NVMe Solid State Drive + 1TB 7200 rpm 2.5\" SATA Hard Drive\n      Windows 10 Home Single Language + MS OFFICE\n      Intel UHD Graphics with shared graphics memory",
+    "category": "Laptop",
+    "specifications": ["8 GB/1 TB HDD/256 GB SSD", "14 inch Full HD"]
+  },
+  {
+    "name": "Apple MacBook Pro Core i9",
+    "fullName": "Apple MacBook Pro Core i9 9th Gen - (16 GB/1 TB SSD/Mac OS Catalina/4 GB Graphics)",
+    "image": "/images/mac-i9.jpg",
+    "price": 1899.99,
+    "rating": 4.6,
+    "brand": "Apple",
+    "description": "Ninth-generation 8-Core Intel Core i9 ProcessorStunning 16-inch \n      Retina Display with True Tone technology Touch Bar and Touch ID AMD Radeon Pro 5500M \n      Graphics with GDDR6 memory Ultrafast SSD Intel UHD Graphics 630\n      Six-speaker system with force-cancelling woofers Four Thunderbolt 3 (USB-C) ports\n      Up to 11 hours of battery life 802.11ac Wi-Fi",
+    "category": "Laptop",
+    "specifications": ["16 GB/1 TB SSD/4 GB Graphics", "16 inch, Silver"]
+  },
+  {
+    "name": "Asus Vivobook i5 10gen",
+    "fullName": "Asus Vivobook Ryzen 5 Quad Core - (8 GB/1 TB HDD/Windows 10 Pro) D1401D-EK166",
+    "image": "/images/Asus-Vivobook-i5-10.jpg",
+    "price": 979.99,
+    "rating": 4,
+    "brand": "Apple",
+    "description": "ASUS VivoBook S15 S533 Thin and Light Laptop, 15.6” FHD, Intel Core i5-10210U CPU, 8GB DDR4 RAM, 512GB PCIe SSD, Windows 10 Home, S533FA-DS51, Indie Black",
+    "category": "Laptop",
+    "specifications": ["8 GB/1TB HDD/Ryzen 5Quad Core", "14 inch, Transparent"]
+  },
+  {
+    "name": "Alienware - x17 R1 17.3",
+    "fullName": "Alienware - x17 Intel Core i7 NVIDIA GeForce RTX 3070",
+    "image": "/images/Alienware _x17.jpg",
+    "price": 2549.99,
+
+    "brand": "Dell",
+    "description": "The new Alienware x17 is super thin, extremely light Laptop . Now’s your chance to game with gear that knows no boundaries. The Alienware x17 gaming Laptops with advanced Alienware Cryo-Tech™ cooling defy boundaries. Introducing Element 31 thermal interface material and a Quad-Fan Design. We are incorporating more fan blades, more copper materials, and vapor chambers to deliver ample power while dissipating the heat more efficiently and allowing the fans to run less resulting in reduced noise. The x17 features five tailored power states, and grants access to thousands of games with Windows. Alienware Laptops will bring your favorite games into hyper-reality with Windows DirectX 12 Ultimate. Constructed with magnesium alloy and aluminum parts gamers can experience the evolved Legend Industrial Design that reimagines the way you game. The Alienware x17 is equipped with 11th Gen Intel processors, has more storage options with dual drives featuring SSD and includes powerful NVIDIA® GeForce® RTX 30-series discrete graphics.",
+    "category": "Laptop",
+    "specifications": ["NVIDIA GeForce RTX 3070", "16GB Memory"]
+  },
+  {
+    "name": "Acer Predator Helios 300",
+    "fullName": "Acer Predato Intel i7-9750H 256GB Full HD 144Hz 3ms",
+    "image": "/images/predator_300.jpg",
+    "price": 1479.99,
+
+    "brand": "Acer",
+    "description": "9th Generation Intel Core i7 9750H 6 Core Processor (Up to 4.5GHz) with Windows 10 Home 64 Bit\nNVIDIA GeForce GTX 1660 Ti Graphics with 6GB of dedicated GDDR6 VRAM\n15.6 inches Full HD (1920 x 1080) Widescreen LED backlit IPS Display (144Hz Refresh Rate, 3ms Overdrive Response Time, 300nit Brightness and 72 percentage NTSC)\n16GB DDR4 2666MHz Memory, 256GB PCIe NVMe SSD (2 x PCIe M.2 Slots; 1 Slot Open for Easy Upgrades) and 1 Available Hard Drive Bay\nBacklit Keyboard; LAN: Killer Ethernet E2500 10/100/1000 Gigabit Ethernet LAN; Wireless: Killer DoubleShot Pro Wireless AC 1550 802. 11ac; 4th Gen All Metal AeroBlade 3D Fan",
+    "category": "Laptop",
+    "specifications": ["GeForce GTX 1660 Ti", "256GB NVMe SSD"]
+  },
+  {
+    "name": "Apple A Grade Pro 13",
+    "fullName": "Apple - 13,3\" MacBook Pro Touch Bar (2020) - Intel Core i7",
+    "image": "/images/apple-13-3-macbook.jpg",
+    "thumbnail": "/images/apple-13-3-macbook_thum.png",
+    "price": 1222.99,
+
+    "brand": "Apple",
+    "description": "Macbook Pro 13.3 -inch (Retina, Space Gray, Touch Bar) 2.8G hz Quad Core i7 (2019). - Apple MV982LL/A. The MacBook Pro \"Core i7\" 2.8 13-Inch (2019, Touch Bar, Four Thunderbolt 3 Ports) is powered by a 14 nm, 8th Generation \"Coffee Lake\" 2.8 GHz Intel \"Core i7\" processor (I7-8569U), with four independent processor \"cores\" on a single silicon chip, 256 MB of eDRAM embedded on the processor die, and a 8 MB shared level 3 cache and an integrated Intel Iris Plus Graphics 655 graphics processor that shares memory with the system.",
+    "category": "Laptop",
+    "specifications": ["16GB Memory", "256GB SSD"]
+  },
+  {
+    "name": "ASUS ROG Zephyrus G15",
+    "fullName": "ASUS ROG AMD Ryzen 9 5900HS 8-Core, 2TB PCIe SSD, 15.6\" 2K Quad HD ",
+    "image": "/images/asus_rog_g15.jpg",
+    "thumbnail": "/images/asus_rog_g15_thum.jpeg",
+    "price": 2199.99,
+
+    "brand": "Asus",
+    "description": "5th Gen AMD Ryzen 9 5900HS 3.0GHz Processor (upto 4.6 GHz, 16MB Cache, 8-Cores) ; NVIDIA RTX 3070 8GB GDDR6 Dedicated Graphics, .\n40GB DDR4 RAM (8GB Onboard + 32GB SODIMM) ; 802.11ax Wifi, Bluetooth 5.1, Ethernet LAN (RJ-45), No Webcam, RGB Backlit Keyboard, .\n15.6\" 2K Quad HD (2560x1440) 165Hz Display; 200W Power Supply, 4-Cell 90 WHr Battery; Eclipse Gray Color, .\n2TB PCIe NVMe SSD; 1 HDMI, 2 USB 3.2 Type-C Gen2, Micro SD Reader, Headphone/Microphone Combo Jack.\nWindows 10 Pro-64., 1 Year Manufacturer warranty from DealKing (Professionally upgraded by DealKing)",
+    "category": "Laptop",
+    "specifications": ["NVIDIA RTX 3070", "40GB RAM DDR4"]
+  },
+  {
+    "name": "Lenovo Legion Y540 ",
+    "fullName": "Lenovo Legion 15.6\" FHD IPS 144Hz Intel 6-Core i7-9750H 1TB SSD",
+    "image": "/images/lenovo_15.jpg",
+    "thumbnail": "/images/lenovo_15_thum.jpeg",
+    "price": 1499.99,
+
+    "brand": "Lenovo",
+    "description": "9th Gen Intel Core i7-9750H Processor (6-Core, 2.6 GHz Up to 4.5GHz, 12MB Cache), 32GB DDR4 Memory, 1024GB SSD\n15.6\" Full HD (1920 x 1080) IPS with 144Hz Refresh Rate Display, NVIDIA GeForce GTX 1660Ti 6GB GDDR6\n10/100/1000Mbps Ethernet, 802_11_AC, Bluetooth 4.1, HD Audio with Stereo Speakers, Webcam\n1 x USB 3.1 Gen1 Type-C, 3 x USB 3.1 Type-A, 1 x HDMI, 1 x DisplayPort, 1 x Headphone/Speaker/Line-Out Jack, 1 x RJ-45\nFull-size Island-style Backlit Keyboard with Numeric Keypad, Windows 10 Home 64-bit, 57WHr 3-cell lithium_ion, 5.06lb, Black",
+    "category": "Laptop",
+    "specifications": ["GTX 1660Ti 6GB", " 32GB RAM DDR4"]
+  },
+  {
+    "name": "MSI Gaming  15.6",
+    "fullName": "MSI - 15.6\" 144 Hz IPS - Intel Core i7 11th Gen 11800 1TB HDD 512 GB NVMe SSD",
+    "image": "/images/msi_15.jpg",
+    "thumbnail": "/images/msi_15_thum.jpg",
+    "price": 1399.99,
+
+    "brand": "Msi",
+    "description": "NVIDIA GeForce RTX 3060 Laptop GPU 6 GB GDDR6\nIntel Core i7 11th Gen 11800H (2.30 GHz)\n16 GB Memory 1 TB HDD 512 GB NVMe SSD\n15.6\" 1920 x 1080 IPS-Level 144 Hz 45% NTSC\n14.13\" x 10.20\" x 0.94\" 4.63 lbs.\n1 x HDMI (4K @ 60Hz)\n1 x USB 3.2 Gen 1 Type-C\n2 x USB 3.2 Gen 1 Type-A\n1 x USB 2.0\n*The Windows 11 upgrade will be delivered to qualifying devices late 2021 into 2022. Timing varies by device. Certain features require additional hardware (see aka.ms/windows11-spec)",
+    "category": "Laptop",
+    "specifications": ["GeForce RTX 3060", "16 GB RAM DDR4"]
+  },
+  {
+    "name": "NVIDIA GeForce RTX 3080 ",
+    "fullName": "ASUS TUF Gaming NVIDIA GeForce RTX 3080 OC Edition",
+    "image": "/images/RTX-3080_thum.jpg",
+    "thumbnail": "/images/RTX-3080.jpg",
+    "price": 1999.99,
+    "brand": "Asus",
+    "description": "NVIDIA Ampere Streaming Multiprocessors: The building blocks for the world’s fastest, most efficient GPU, the all-new Ampere SM brings 2X the FP32 throughput and improved power efficiency.\n2nd Generation RT Cores: Experience 2X the throughput of 1st Gen RT Cores, plus concurrent RT and shading for a whole new level of ray tracing performance.\n3rd Generation Tensor Cores: Get up to 2X the throughput with structural sparsity and advanced AI algorithms such as DLSS. Now with support for up to 8K resolution, these cores deliver a massive boost in game performance and all-new AI capabilities.\nAxial-Tech Fan Design has been newly tuned with a reversed central fan direction for less turbulence.\nMilitary-grade Capacitors and other TUF components enhance durability and performance.\nDual Ball Fan Bearings can last up to twice as long as sleeve bearing designs.\nGPU Tweak II provides intuitive performance tweaking, thermal controls, and system monitoring.",
+    "category": "Laptop",
+    "specifications": ["10GB GDDR6X", "Dual Ball Fan Bearings"]
+  },
+  {
+    "name": "Radeon RX6800XT",
+    "fullName": "MSI Gaming Radeon RX 6800 XT RDNA 2 Architecture OC Graphics Card (RX 6800 XT Gaming X Trio 16G)",
+    "image": "/images/msi_rx6800.jpg",
+    "thumbnail": "",
+    "price": 1599.99,
+
+    "brand": "Msi",
+    "description": "The TRI FROZR 2 thermal system has been designed for efficiency. Expect a balance of cool and quiet for more fun during endless gaming sessions.\nTORX FAN 4.0 is built on teamwork, with pairs of fan blades bound together with an outer link that focuses airflow. When active cooling is not needed, Zero Frozr stops the fans for silence.\nA lightweight composite Graphene backplate reinforces the length of the graphics card while providing passive thermal conduction properties.\nMSI's exclusive Dragon Center software helps you get the most out of your MSI products. Monitor, tweak and optimize in real-time with just a few clicks.",
+    "category": "Graphic Cards",
+    "specifications": ["GDRR6 256-Bit", "DP 2285 MHz"]
+  },
+  {
+    "name": "GeForce RTX 2060 ",
+    "fullName": "MSI NVIDIA GeForce RTX 2060 Graphic Card - 6 GB GDDR6",
+    "image": "/images/2060.png",
+    "thumbnail": "/images/2060_thum.png",
+    "price": 704.99,
+
+    "brand": "Msi",
+    "description": "PREMIUM DESIGN\n\nA fresh new dual fan design, VENTUS proudly displays its industrial shapes in neutral colors to fit any build.\n\nTORX FAN 2.0\n\nUsing two of the award-winning TORX Fans 2.0, MSI VENTUS graphics cards provide years of top-notch cooling performance.\n\nDispersion Fan Bladehas a steeper curved blade which accelerates the airflow, increasing its effectiveness.\n\nWE'VE GOT YOUR BACK\n\nA sturdy backplate helps to strengthen the graphics card and complements the design to look even better.\n\nDRAGON CENTER\n\nTo improve the experience with MSI software, we have embarked on a quest to consolidate as much of our software as possible into one unified suite. We are excited to share the first version of this gargantuan project which will be known as Dragon Center.\n\nEventually Dragon Center will be the only MSI software you need to install for full functionality of your MSI Desktop, Graphics Card, Motherboard or even Gaming Gear. Thanks to a modular concept, the application will automatically detect new MSI hardware once added. Based on the hardware in your system it will offer the relevant software drivers for your specific setup\n\nTHE FUTURE OF GAMING\n\nThe smoothest, fastest and most exciting gaming experience ever by eliminating screen tearing, display stutter and input lag.\n\nUltra-high resolution (UHD) delivers 4x the resolution of 1080p content, enabling much sharper and crisper images with delicate details during gaming.\n\nHigh Dynamic Range (HDR) enhances your gaming world with higher contrast and brighter colors than you've ever seen before.\n\nAFTERBURNERMSI Afterburner is the world's most recognized and widely used graphics card Overclocking software. It gives you full control of your graphics card and enables you to monitor your system's key metrics in real-time.\n\nOC SCANNER\n\nThe latest version of MSI Afterburner features OC Scanner for RTX 20 series graphics cards. OC Scanner is an automated function that will find the highest stable overclock settings for your card. Giving you a free performance boost for a smooth in-game experience thanks to higher FPS.\n\nMSI APP PLAYER\n\nDeveloped under an exclusive partnership with BlueStacks, the MSI APP Player brings seamless gaming experience between mobile games and PC platform, and leverages customized features as specific keyboard lighting and better graphics with multi-task works.",
+    "category": "Graphic Cards",
+    "specifications": ["DUAL FAN THERMAL DESIGN", "NVIDIA G-SYNC"]
+  },
+  {
+    "name": "Radeon RX 580 ",
+    "fullName": "ASUS Radeon RX 580  CrossFireX Support Video Card DUAL-RX580-O8G",
+    "image": "/images/RX_580.jpg",
+    "thumbnail": "/images/RX_580_thum.jpg",
+    "price": 621.99,
+
+    "brand": "Asus",
+    "description": "1380 MHz GPU Boost Clock (OC mode) for outstanding gaming experience\n\nAMD Radeon VR Ready Premium with dual HDMI 2.0 ports to simultaneously connect headset & monitor\n\nDual-fan cooling provides doubled airflow for 3x quieter gameplay\n\nGPU Tweak II makes monitoring performance and streaming easier than ever, featuring Game Booster and XSplit Gamecaster, all via an intuitive interface and 1-click overclocking\n\nAuto-Extreme manufacturing technology delivers premium quality and reliability with aerospace-grade Super Alloy Power II components",
+    "numReviews": 0,
+    "category": "Graphic Cards",
+    "specifications": ["8GB GDDR5", "256-Bit"]
+  }
+]
