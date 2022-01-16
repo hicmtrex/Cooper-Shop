@@ -19,7 +19,7 @@ import { Store } from '../../utils/Store';
 import { getError } from '../../utils/error';
 import { useRouter } from 'next/router';
 import { useSnackbar } from 'notistack';
-import { getAllProducts, getProductById } from '../../utils/help-api';
+import { getProductById } from '../../utils/help-api';
 
 const ProductScreen = (props) => {
   const router = useRouter();
@@ -272,8 +272,8 @@ export const getStaticProps = async (context) => {
 };
 
 export const getStaticPaths = async () => {
-  const products = await getAllProducts();
-  const paths = products.map((product) => ({ params: { id: product._id } }));
+  const { data } = await axios.get('http://localhost:3000/api/products');
+  const paths = data.map((product) => ({ params: { id: product._id } }));
 
   return {
     paths,
