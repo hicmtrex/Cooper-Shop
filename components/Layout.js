@@ -180,24 +180,25 @@ export default function Layout({ title, description, children }) {
                   <ListItem button component='a' onClick={sidebarCloseHandler}>
                     <i
                       style={{ marginRight: 5 }}
-                      className='fas fa-industry'
+                      className='fas fa-desktop'
                     ></i>
                     <ListItemText primary={categories[0]}></ListItemText>
                   </ListItem>
                 </NextLink>
                 <NextLink href={`/search?category=${categories[1]}`} passHref>
                   <ListItem button component='a' onClick={sidebarCloseHandler}>
-                    <i style={{ marginRight: 5 }} className='fas fa-laptop'></i>
+                    <i
+                      style={{ marginRight: 5 }}
+                      className='fas fa-industry'
+                    ></i>
+
                     <ListItemText primary={categories[1]}></ListItemText>
                   </ListItem>
                 </NextLink>
                 <NextLink href={`/search?category=${categories[2]}`} passHref>
                   <ListItem button component='a' onClick={sidebarCloseHandler}>
-                    <i
-                      style={{ marginRight: 5 }}
-                      className='fas fa-desktop'
-                    ></i>
-                    <ListItemText primary={'Desktop'}></ListItemText>
+                    <i style={{ marginRight: 5 }} className='fas fa-laptop'></i>
+                    <ListItemText primary={categories[2]}></ListItemText>
                   </ListItem>
                 </NextLink>
               </List>

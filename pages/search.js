@@ -208,7 +208,7 @@ export default function Search(props) {
           </Grid>
           <Grid className={classes.mt1} container spacing={3}>
             {products.map((product) => (
-              <Grid item md={4} key={product.name}>
+              <Grid item md={4} xs={12} key={product.name}>
                 <ProductItem
                   product={product}
                   addToCartHandler={addToCartHandler}
