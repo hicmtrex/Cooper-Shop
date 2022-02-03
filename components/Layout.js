@@ -223,9 +223,9 @@ export default function Layout({ title, description, children }) {
             </div>
             <div>
               {!darkMode ? (
-                <i style={{ color: 'white' }} className='fas fa-moon'></i>
-              ) : (
                 <i style={{ color: 'white' }} className='fas fa-sun'></i>
+              ) : (
+                <i style={{ color: 'white' }} className='fas fa-moon'></i>
               )}
               <Switch checked={darkMode} onChange={darkModeChangeHandler} />
 
