@@ -1,12 +1,4 @@
-﻿<!--
-Hey, thanks for using the awesome-readme-template template.
-If you have any enhancements, then fork this project and create a pull request
-or just open an issue with the label "enhancement".
-
-Don't forget to give this project a star for additional support ;)
-Maybe you can mention me or this repo in the acknowledgements too
--->
-<div align="center">
+﻿<div align="center">
 
   <img src="public/favicon.ico" alt="logo" width="200" height="auto" />
   <h1>Cooper Shop </h1>
@@ -67,14 +59,8 @@ Maybe you can mention me or this repo in the acknowledgements too
   - [Running Tests](#running-tests)
   - [Run Locally](#run-locally)
   - [Deployment](#deployment)
-- [Usage](#usage)
-- [Roadmap](#roadmap)
-- [Contributing](#contributing)
-  - [Code of Conduct](#code-of-conduct)
-- [FAQ](#faq)
 - [License](#license)
 - [Contact](#contact)
-- [Acknowledgements](#acknowledgements)
 
 <!-- About the Project -->
 
@@ -219,24 +205,6 @@ Start the server
   npm start
 ```
 
-<!-- Contributing -->
-
-## :wave: Contributing
-
-<a href="https://github.com/Louis3797/awesome-readme-template/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=Louis3797/awesome-readme-template" />
-</a>
-
-Contributions are always welcome!
-
-See `contributing.md` for ways to get started.
-
-<!-- Code of Conduct -->
-
-### :scroll: Code of Conduct
-
-Please read the [Code of Conduct](https://github.com/Louis3797/awesome-readme-template/blob/master/CODE_OF_CONDUCT.md)
-
 <!-- License -->
 
 ## :warning: License
@@ -247,6 +215,6 @@ Distributed under the License. See LICENSE.txt for more information.
 
 ## :handshake: Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - hichembouallegue@gmail.com
+Hicm- [@twitter](https://twitter.com/hicmtrex) - hichembouallegue@gmail.com
 
 Project Link: [https://cooper-shop.vercel.app/](https://cooper-shop.vercel.app/)
