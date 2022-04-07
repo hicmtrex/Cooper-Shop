@@ -1,12 +1,4 @@
-﻿# Cooper-Shop
-
-The best Ecommerce Web app
-
-<img  alt="React" src="https://res.cloudinary.com/hicm/image/upload/v1643928524/github/cooper-web-home_gnwchu.png" />
-
-<img  alt="React" src="https://res.cloudinary.com/hicm/image/upload/v1643928521/github/Cooper-detail_goit1e.png" />
-
-<!--
+﻿<!--
 Hey, thanks for using the awesome-readme-template template.
 If you have any enhancements, then fork this project and create a pull request
 or just open an issue with the label "enhancement".
@@ -47,13 +39,13 @@ Maybe you can mention me or this repo in the acknowledgements too
 </p>
    
 <h4>
-    <a href="https://github.com/Louis3797/awesome-readme-template/">View Demo</a>
+    <a href="https://cooper-shop.vercel.app/">View Demo</a>
   <span> · </span>
-    <a href="https://github.com/Louis3797/awesome-readme-template">Documentation</a>
+    <a href="https://github.com/hicmtrex/Cooper-Shop">Documentation</a>
   <span> · </span>
-    <a href="https://github.com/Louis3797/awesome-readme-template/issues/">Report Bug</a>
+    <a href="https://github.com/hicmtrex/Cooper-Shop/issues/">Report Bug</a>
   <span> · </span>
-    <a href="https://github.com/Louis3797/awesome-readme-template/issues/">Request Feature</a>
+    <a href="https://github.com/hicmtrex/Cooper-Shop/issues/">Request Feature</a>
   </h4>
 </div>
 
@@ -299,17 +291,17 @@ Distributed under the [MIT](https://choosealicense.com/licenses/mit/) License. S
 
 ## :handshake: Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
+Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - hichembouallegue@gmail.com
 
-Project Link: [https://github.com/Louis3797/awesome-readme-template](https://github.com/Louis3797/awesome-readme-template)
+Project Link: [https://cooper-shop.vercel.app/](https://cooper-shop.vercel.app/)
 
 <!-- Acknowledgments -->
 
-## :gem: Acknowledgements
+<!-- ## :gem: Acknowledgements
 
 Use this section to mention useful resources and libraries that you have used in your projects.
 
 - [Shields.io](https://shields.io/)
 - [Awesome README](https://github.com/matiassingers/awesome-readme)
 - [Emoji Cheat Sheet](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md#travel--places)
-- [Readme Template](https://github.com/othneildrew/Best-README-Template)
+- [Readme Template](https://github.com/othneildrew/Best-README-Template) -->
