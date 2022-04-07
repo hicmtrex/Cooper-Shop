@@ -24,7 +24,6 @@ const useStyles = makeStyles((theme) => ({
     backgroundColor: 'rgba(255,99,71)',
     paddingTop: 20,
     paddingBottom: 20,
-    // background: 'linear-gradient(rgba(0,0,0,0.7), rgba(255,99,71,0.7))',
     color: '#fff',
   },
   section: {
