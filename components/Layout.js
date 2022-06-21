@@ -148,7 +148,7 @@ export default function Layout({ title, description, children }) {
               </IconButton>
               <NextLink href='/' passHref>
                 <Link>
-                  <Typography className={classes.brand}>Cooper Shop</Typography>
+                  <Typography className={classes.brand}>Cooper</Typography>
                 </Link>
               </NextLink>
             </Box>
