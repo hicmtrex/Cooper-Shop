@@ -2,7 +2,7 @@ repo_name: hicmtrex/Cooper-Shop
 report_id: 6297a5fbd97cf6176500401958bb7a0e
 version: 0.1
 repo_type: Public
-timestamp: '2023-12-21T15:34:10+00:00'
+timestamp: '2024-01-05T08:17:19+00:00'
 requested_by: hicmtrex
 provider: github
 branch: main
@@ -16,6 +16,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/hicmtrex/Cooper-Shop
   detection_source: Repo Metadata
 - name: JavaScript
   description: Lightweight, interpreted, object-oriented language with first-class
@@ -26,6 +27,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/hicmtrex/Cooper-Shop
   detection_source: Repo Metadata
 - name: Chart.js
   description: Simple, clean and engaging charts for designers and developers
@@ -50,6 +52,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Front-End Frameworks
   image_url: https://img.stackshare.io/service/1904/default_44d81cb9fadbc3688b7e91a6d5217d0ea5358b57.png
+  detection_source_url: https://github.com/hicmtrex/Cooper-Shop/blob/main/package.json
   detection_source: package.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-01-16 18:54:18.000000000 Z
@@ -103,6 +106,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Review
   image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/hicmtrex/Cooper-Shop/blob/main/.eslintrc
   detection_source: ".eslintrc"
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-01-16 18:54:18.000000000 Z
@@ -114,6 +118,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/hicmtrex/Cooper-Shop
   detection_source: Repo Metadata
 - name: npm
   description: The package manager for JavaScript.
@@ -123,6 +128,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/hicmtrex/Cooper-Shop/blob/main/package.json
   detection_source: package.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-01-16 18:54:18.000000000 Z
@@ -135,6 +141,7 @@ tools:
   category: Assets and Media
   sub_category: Image Processing and Management
   image_url: https://img.stackshare.io/service/304/default_d0fb82038ec18f67ca33bf6ce0df0bffb427e94f.png
+  detection_source_url: https://github.com/hicmtrex/Cooper-Shop/blob/main/package.json
   detection_source: package.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-01-16 18:54:18.000000000 Z
