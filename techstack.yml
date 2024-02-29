@@ -2,7 +2,7 @@ repo_name: hicmtrex/Cooper-Shop
 report_id: 6297a5fbd97cf6176500401958bb7a0e
 version: 0.1
 repo_type: Public
-timestamp: '2024-01-05T08:17:19+00:00'
+timestamp: '2024-02-29T19:10:06+00:00'
 requested_by: hicmtrex
 provider: github
 branch: main
@@ -57,7 +57,7 @@ tools:
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-01-16 18:54:18.000000000 Z
 - name: Next.js
-  description: 'A small framework for server-rendered universal JavaScript apps '
+  description: A small framework for server-rendered universal JavaScript apps
   website_url: https://nextjs.org/
   version: 11.0.1
   open_source: true
